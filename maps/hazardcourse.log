@@ -1,0 +1,736 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\MalMetro\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\malmetro\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic (-536.00 -64.00 -63.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6941 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 54 texinfos to 42
+Reduced 8 texdatas to 7 (190 bytes to 146)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+Wrote ZIP buffer, estimated size 212203, actual size 211587
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.prt
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+No vis information, direct lighting only.
+124 faces
+9916 square feet [1427974.13 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             116/65536         928/524288   ( 0.2%) 
+planes                  76/65536        1520/1310720  ( 0.1%) 
+vertexes               167/65536        2004/786432   ( 0.3%) 
+nodes                   89/65536        2848/2097152  ( 0.1%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  124/65536        6944/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               80/65536        4480/3670016  ( 0.1%) 
+leaves                  91/65536        2912/2097152  ( 0.1%) 
+leaffaces              126/65536         252/131072   ( 0.2%) 
+leafbrushes             32/65536          64/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              898/512000       3592/2048000  ( 0.2%) 
+edges                  487/256000       1948/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              9/32768          90/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           117/65536         234/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      106200/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5087/393216   ( 1.3%) 
+LDR ambient table       91/65536         364/262144   ( 0.1%) 
+HDR ambient table       91/65536         364/262144   ( 0.1%) 
+LDR leaf ambient        60/65536        1680/1835008  ( 0.1%) 
+HDR leaf ambient        91/65536        2548/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211587/0        ( 0.0%) 
+physics               [variable]        6941/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 330
+Writing c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+No vis information, direct lighting only.
+124 faces
+9916 square feet [1427974.13 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 19/8192          228/98304    ( 0.2%) 
+brushsides             116/65536         928/524288   ( 0.2%) 
+planes                  76/65536        1520/1310720  ( 0.1%) 
+vertexes               167/65536        2004/786432   ( 0.3%) 
+nodes                   89/65536        2848/2097152  ( 0.1%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  124/65536        6944/3670016  ( 0.2%) 
+hdr faces              124/65536        6944/3670016  ( 0.2%) 
+origfaces               80/65536        4480/3670016  ( 0.1%) 
+leaves                  91/65536        2912/2097152  ( 0.1%) 
+leaffaces              126/65536         252/131072   ( 0.2%) 
+leafbrushes             32/65536          64/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              898/512000       3592/2048000  ( 0.2%) 
+edges                  487/256000       1948/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              9/32768          90/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           117/65536         234/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      106200/0        ( 0.0%) 
+HDR lightdata         [variable]      106200/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5087/393216   ( 1.3%) 
+LDR ambient table       91/65536         364/262144   ( 0.1%) 
+HDR ambient table       91/65536         364/262144   ( 0.1%) 
+LDR leaf ambient        60/65536        1680/1835008  ( 0.1%) 
+HDR leaf ambient        60/65536        1680/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211587/0        ( 0.0%) 
+physics               [variable]        6941/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 330
+Writing c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\MalMetro\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\malmetro\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic (-536.00 -64.00 -63.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7317 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 54 texinfos to 42
+Reduced 8 texdatas to 7 (190 bytes to 146)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+Wrote ZIP buffer, estimated size 212203, actual size 211587
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.prt
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+No vis information, direct lighting only.
+125 faces
+9829 square feet [1415446.13 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 20/8192          240/98304    ( 0.2%) 
+brushsides             122/65536         976/524288   ( 0.2%) 
+planes                  80/65536        1600/1310720  ( 0.1%) 
+vertexes               180/65536        2160/786432   ( 0.3%) 
+nodes                   97/65536        3104/2097152  ( 0.1%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  125/65536        7000/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               80/65536        4480/3670016  ( 0.1%) 
+leaves                  99/65536        3168/2097152  ( 0.2%) 
+leaffaces              127/65536         254/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              903/512000       3612/2048000  ( 0.2%) 
+edges                  496/256000       1984/1024000  ( 0.2%) 
+LDR worldlights          6/8192          528/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           159/65536         318/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      105952/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        7635/393216   ( 1.9%) 
+LDR ambient table       99/65536         396/262144   ( 0.2%) 
+HDR ambient table       99/65536         396/262144   ( 0.2%) 
+LDR leaf ambient       173/65536        4844/1835008  ( 0.3%) 
+HDR leaf ambient        99/65536        2772/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211587/0        ( 0.0%) 
+physics               [variable]        7317/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 333
+Writing c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+No vis information, direct lighting only.
+125 faces
+9829 square feet [1415446.13 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 20/8192          240/98304    ( 0.2%) 
+brushsides             122/65536         976/524288   ( 0.2%) 
+planes                  80/65536        1600/1310720  ( 0.1%) 
+vertexes               180/65536        2160/786432   ( 0.3%) 
+nodes                   97/65536        3104/2097152  ( 0.1%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  125/65536        7000/3670016  ( 0.2%) 
+hdr faces              125/65536        7000/3670016  ( 0.2%) 
+origfaces               80/65536        4480/3670016  ( 0.1%) 
+leaves                  99/65536        3168/2097152  ( 0.2%) 
+leaffaces              127/65536         254/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              903/512000       3612/2048000  ( 0.2%) 
+edges                  496/256000       1984/1024000  ( 0.2%) 
+LDR worldlights          6/8192          528/720896   ( 0.1%) 
+HDR worldlights          6/8192          528/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           159/65536         318/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      105952/0        ( 0.0%) 
+HDR lightdata         [variable]      105952/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        7635/393216   ( 1.9%) 
+LDR ambient table       99/65536         396/262144   ( 0.2%) 
+HDR ambient table       99/65536         396/262144   ( 0.2%) 
+LDR leaf ambient       173/65536        4844/1835008  ( 0.3%) 
+HDR leaf ambient       173/65536        4844/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211587/0        ( 0.0%) 
+physics               [variable]        7317/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 333
+Writing c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\MalMetro\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\malmetro\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic (-536.00 -64.00 -63.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7317 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 54 texinfos to 42
+Reduced 8 texdatas to 7 (190 bytes to 146)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+Wrote ZIP buffer, estimated size 212203, actual size 211587
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.prt
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+No vis information, direct lighting only.
+125 faces
+9829 square feet [1415446.13 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 20/8192          240/98304    ( 0.2%) 
+brushsides             122/65536         976/524288   ( 0.2%) 
+planes                  80/65536        1600/1310720  ( 0.1%) 
+vertexes               180/65536        2160/786432   ( 0.3%) 
+nodes                   97/65536        3104/2097152  ( 0.1%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  125/65536        7000/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               80/65536        4480/3670016  ( 0.1%) 
+leaves                  99/65536        3168/2097152  ( 0.2%) 
+leaffaces              127/65536         254/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              903/512000       3612/2048000  ( 0.2%) 
+edges                  496/256000       1984/1024000  ( 0.2%) 
+LDR worldlights          7/8192          616/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           159/65536         318/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      105952/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        8382/393216   ( 2.1%) 
+LDR ambient table       99/65536         396/262144   ( 0.2%) 
+HDR ambient table       99/65536         396/262144   ( 0.2%) 
+LDR leaf ambient       180/65536        5040/1835008  ( 0.3%) 
+HDR leaf ambient        99/65536        2772/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211587/0        ( 0.0%) 
+physics               [variable]        7317/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 333
+Writing c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+No vis information, direct lighting only.
+125 faces
+9829 square feet [1415446.13 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 20/8192          240/98304    ( 0.2%) 
+brushsides             122/65536         976/524288   ( 0.2%) 
+planes                  80/65536        1600/1310720  ( 0.1%) 
+vertexes               180/65536        2160/786432   ( 0.3%) 
+nodes                   97/65536        3104/2097152  ( 0.1%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  125/65536        7000/3670016  ( 0.2%) 
+hdr faces              125/65536        7000/3670016  ( 0.2%) 
+origfaces               80/65536        4480/3670016  ( 0.1%) 
+leaves                  99/65536        3168/2097152  ( 0.2%) 
+leaffaces              127/65536         254/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              903/512000       3612/2048000  ( 0.2%) 
+edges                  496/256000       1984/1024000  ( 0.2%) 
+LDR worldlights          7/8192          616/720896   ( 0.1%) 
+HDR worldlights          7/8192          616/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           159/65536         318/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      105952/0        ( 0.0%) 
+HDR lightdata         [variable]      105952/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        8382/393216   ( 2.1%) 
+LDR ambient table       99/65536         396/262144   ( 0.2%) 
+HDR ambient table       99/65536         396/262144   ( 0.2%) 
+LDR leaf ambient       180/65536        5040/1835008  ( 0.3%) 
+HDR leaf ambient       180/65536        5040/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211587/0        ( 0.0%) 
+physics               [variable]        7317/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 333
+Writing c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\MalMetro\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\malmetro\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic (-536.00 -64.00 -63.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7317 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 54 texinfos to 42
+Reduced 8 texdatas to 7 (190 bytes to 146)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+Wrote ZIP buffer, estimated size 212203, actual size 211587
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.prt
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+No vis information, direct lighting only.
+125 faces
+9829 square feet [1415446.13 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 20/8192          240/98304    ( 0.2%) 
+brushsides             122/65536         976/524288   ( 0.2%) 
+planes                  80/65536        1600/1310720  ( 0.1%) 
+vertexes               180/65536        2160/786432   ( 0.3%) 
+nodes                   97/65536        3104/2097152  ( 0.1%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  125/65536        7000/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               80/65536        4480/3670016  ( 0.1%) 
+leaves                  99/65536        3168/2097152  ( 0.2%) 
+leaffaces              127/65536         254/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              903/512000       3612/2048000  ( 0.2%) 
+edges                  496/256000       1984/1024000  ( 0.2%) 
+LDR worldlights         13/8192         1144/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           159/65536         318/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      105952/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       10930/393216   ( 2.8%) 
+LDR ambient table       99/65536         396/262144   ( 0.2%) 
+HDR ambient table       99/65536         396/262144   ( 0.2%) 
+LDR leaf ambient       205/65536        5740/1835008  ( 0.3%) 
+HDR leaf ambient        99/65536        2772/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211587/0        ( 0.0%) 
+physics               [variable]        7317/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 333
+Writing c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+0 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+No vis information, direct lighting only.
+125 faces
+9829 square feet [1415446.13 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 20/8192          240/98304    ( 0.2%) 
+brushsides             122/65536         976/524288   ( 0.2%) 
+planes                  80/65536        1600/1310720  ( 0.1%) 
+vertexes               180/65536        2160/786432   ( 0.3%) 
+nodes                   97/65536        3104/2097152  ( 0.1%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  125/65536        7000/3670016  ( 0.2%) 
+hdr faces              125/65536        7000/3670016  ( 0.2%) 
+origfaces               80/65536        4480/3670016  ( 0.1%) 
+leaves                  99/65536        3168/2097152  ( 0.2%) 
+leaffaces              127/65536         254/131072   ( 0.2%) 
+leafbrushes             34/65536          68/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              903/512000       3612/2048000  ( 0.2%) 
+edges                  496/256000       1984/1024000  ( 0.2%) 
+LDR worldlights         13/8192         1144/720896   ( 0.2%) 
+HDR worldlights         13/8192         1144/720896   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           159/65536         318/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      105952/0        ( 0.0%) 
+HDR lightdata         [variable]      105952/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       10930/393216   ( 2.8%) 
+LDR ambient table       99/65536         396/262144   ( 0.2%) 
+HDR ambient table       99/65536         396/262144   ( 0.2%) 
+LDR leaf ambient       205/65536        5740/1835008  ( 0.3%) 
+HDR leaf ambient       205/65536        5740/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211587/0        ( 0.0%) 
+physics               [variable]        7317/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 333
+Writing c:\program files (x86)\steam\steamapps\sourcemods\malmetro\maps\hazardcourse.bsp
+0 seconds elapsed
