@@ -1,0 +1,3 @@
+Duck duckie = New Duck();
+duckie.ai = Web.get(https://www.youtube.com/watch?v=DSG53BsUYd0);
+duckie.init();
